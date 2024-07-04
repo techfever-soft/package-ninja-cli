@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "@inquirer/prompts": {
+      "version": "^3.1.1",
+      "locked": true
+    },
+    "@types/npm-registry-fetch": {
+      "version": "^8.0.7",
+      "locked": false
+    },
+    "chalk": {
+      "version": "^4.1.2",
+      "locked": false
+    },
+    "npm-registry-fetch": {
+      "version": "^17.1.0",
+      "locked": false
+    },
+    "ora": {
+      "version": "^5.4.1",
+      "locked": false
+    }
+  },
+  "devDependencies": {
+    "@types/commander": {
+      "version": "^2.12.2",
+      "locked": true
+    },
+    "@types/node": {
+      "version": "^20.14.9",
+      "locked": false
+    }
+  }
+}

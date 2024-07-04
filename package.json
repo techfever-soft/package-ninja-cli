@@ -1,0 +1,27 @@
+{
+  "name": "package-ninja",
+  "version": "0.1.0",
+  "description": "CLI for PackageNinja - A package manager for Node.js",
+  "author": "D-C-MATE",
+  "main": "dist/bin/package-ninja.js",
+  "bin": {
+    "package-ninja": "dist/bin/package-ninja.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/bin/package-ninja.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^20.14.9"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^3.1.1",
+    "@types/npm-registry-fetch": "^8.0.7",
+    "chalk": "^4.1.2",
+    "npm-registry-fetch": "^17.1.0",
+    "ora": "^5.4.1"
+  }
+}
