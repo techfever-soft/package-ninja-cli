@@ -15,7 +15,7 @@ A smart package manager for Node.js
 To install the CLI globally:
 
 ```bash
-npm install -g packageninja
+npm install -g @techfever/package-ninja
 ```
 
 ## Usage

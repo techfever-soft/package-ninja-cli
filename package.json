@@ -1,5 +1,5 @@
 {
-  "name": "package-ninja",
+  "name": "@techfever/package-ninja",
   "version": "0.1.0",
   "description": "CLI for PackageNinja - A package manager for Node.js",
   "author": "D-C-MATE",
