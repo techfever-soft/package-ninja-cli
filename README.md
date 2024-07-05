@@ -1,6 +1,6 @@
 # 🥷🏽 PackageNinja
 
-A smart package manager for Node.js 
+A smart package manager for Node.js
 
 ## Features
 - Automatically synchronizes your package.json and .pkgninja files
@@ -37,9 +37,9 @@ To check your dependencies :
 ```bash
 package-ninja check
 ```
-This command will categorize your dependencies as upToDate, canUpdate, or outdated.
+This command will ask you if you want a report, and will categorize your dependencies as upToDate, canUpdate, or outdated.
 
-### Locking dependencies
+### Locking/Unlocking dependencies
 ```bash
 package-ninja lock <dependency-name>
 ```
@@ -47,6 +47,12 @@ This command updates the .pkgninja file to lock the specified dependency.
 Unlock dependencies with the command :
 ```bash
 package-ninja unlock <dependency-name>
+```
+
+### Updating dependencies
+This command upgrades dependencies that are unlocked
+```bash
+package-ninja update
 ```
 
 ## Contributing

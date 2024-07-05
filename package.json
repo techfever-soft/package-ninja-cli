@@ -1,6 +1,6 @@
 {
   "name": "@techfever/package-ninja",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI for PackageNinja - A package manager for Node.js",
   "author": "D-C-MATE",
   "main": "dist/bin/package-ninja.js",
@@ -14,14 +14,25 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@types/commander": "^2.12.2",
-    "@types/node": "^20.14.9"
+    "@types/commander": "2.12.2",
+    "@types/node": "20.14.9"
   },
   "dependencies": {
-    "@inquirer/prompts": "^3.1.1",
-    "@types/npm-registry-fetch": "^8.0.7",
+    "@inquirer/prompts": "5.1.2",
+    "@types/npm-registry-fetch": "8.0.7",
     "chalk": "^4.1.2",
-    "npm-registry-fetch": "^17.1.0",
+    "npm-registry-fetch": "17.1.0",
     "ora": "^5.4.1"
-  }
+  },
+  "keywords": [
+    "package manager",
+    "dependency management",
+    "node.js",
+    "angular",
+    "react",
+    "vue",
+    "typescript",
+    "cli",
+    "vscode extension"
+  ]
 }

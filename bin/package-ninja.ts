@@ -6,20 +6,29 @@ import { lock } from "../src/commands/lock";
 import { program } from "commander";
 import { sync } from "../src/commands/sync";
 import { unlock } from "../src/commands/unlock";
+import { update } from "../src/commands/update";
 
-program.version("0.1.0");
+program.version("0.1.1");
 
 program
   .command("init")
-  .description("Init a new .pkgninja file")
+  .description("Initialize a new .pkgninja file")
   .action(init);
 
 program
   .command("sync")
-  .description("Synchronize the .pkgninja file with the package.json")
+  .description("Sync the .pkgninja file with the package.json")
   .action(sync);
 
-program.command("check").description("Check dependencies").action(check);
+program
+  .command("check")
+  .description("Check dependencies and optionally generate a report")
+  .action(check);
+
+program
+  .command("update")
+  .description("Update only unlocked dependencies")
+  .action(update);
 
 program
   .command("lock <dependency>")

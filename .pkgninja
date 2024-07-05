@@ -1,33 +1,36 @@
 {
+  "config": {
+    "reportsPath": "D:\\Workspace\\PackageNinja\\public\\cli\\reports"
+  },
   "dependencies": {
     "@inquirer/prompts": {
-      "version": "^3.1.1",
-      "locked": true
+      "version": "5.1.2",
+      "locked": false
     },
     "@types/npm-registry-fetch": {
-      "version": "^8.0.7",
+      "version": "8.0.7",
       "locked": false
     },
     "chalk": {
       "version": "^4.1.2",
-      "locked": false
+      "locked": true
     },
     "npm-registry-fetch": {
-      "version": "^17.1.0",
+      "version": "17.1.0",
       "locked": false
     },
     "ora": {
       "version": "^5.4.1",
-      "locked": false
+      "locked": true
     }
   },
   "devDependencies": {
     "@types/commander": {
-      "version": "^2.12.2",
-      "locked": true
+      "version": "2.12.2",
+      "locked": false
     },
     "@types/node": {
-      "version": "^20.14.9",
+      "version": "20.14.9",
       "locked": false
     }
   }

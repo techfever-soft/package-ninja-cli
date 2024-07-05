@@ -8,11 +8,17 @@ This roadmap outlines the planned features, improvements, and milestones for the
 ### Version 1.0 - Initial Release
 - [x] Basic CLI functionality
   - [x] `init` command for setting up `.pkgninja` file
-  - [x] `sync` command for synchronizing `package.json` and `.pkgninja` files
+  - [x] `sync` command for syncing `package.json` and `.pkgninja` files
   - [x] `check` command for detecting outdated dependencies
   - [x] `lock` and `unlock` commands for dependency management
+  - [x] `update` command for upgrading packages that are unlocked
 - [x] Dependency categorization (upToDate, canUpdate, outdated)
 - [x] VSCode extension for workspace integration
+- [ ] Dependencies versions history
+- [x] Reports formatted in :
+  - [x] JSON
+  - [ ] HTML
+  - [ ] XML
 
 ### Version 1.1 - Usability Improvements
 - [ ] Enhanced CLI output with better color coding and formatting
@@ -23,7 +29,6 @@ This roadmap outlines the planned features, improvements, and milestones for the
 - [ ] Support for additional package managers (e.g., Yarn, pnpm)
 - [ ] Auto-fix command for automatically updating dependencies
 - [ ] Customizable config options for `.pkgninja` file
-- [ ] Reports formatted in JSON, HTML, XML and more
 
 ### Version 1.3 - Performance and Optimization
 - [ ] Performance improvements for large projects
