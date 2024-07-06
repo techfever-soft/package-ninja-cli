@@ -8,7 +8,7 @@ import { sync } from "../src/commands/sync";
 import { unlock } from "../src/commands/unlock";
 import { update } from "../src/commands/update";
 
-program.version("0.1.1");
+program.version("0.1.2");
 
 program
   .command("init")

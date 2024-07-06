@@ -1,6 +1,9 @@
-# 🥷🏽 PackageNinja
+# 🥷🏽 PackageNinja (CLI)
 
-A smart package manager for Node.js
+A CLI to simplify dependencies managment for Node.js
+
+### [DEMO](https://package-ninja.web.app/#demo)
+### [Other installation methods](https://package-ninja.web.app/#get-started)
 
 ## Features
 - Automatically synchronizes your package.json and .pkgninja files
@@ -8,9 +11,9 @@ A smart package manager for Node.js
 - Provides a user-friendly CLI for managing dependencies
 - Supports dependency locking
 - Works with all project types (Node.js, Angular, React, Vue...)
-- VSCode extension for enhanced workspace integration
+- VSCode extension for enhanced workspace integration  [is available here](https://marketplace.visualstudio.com/items?itemName=techfever.packageninja-extension)
 
-## Installation
+## Installation (with NPM)
 
 To install the CLI globally:
 

@@ -1,7 +1,7 @@
 {
   "name": "@techfever/package-ninja",
-  "version": "0.1.1",
-  "description": "CLI for PackageNinja - A package manager for Node.js",
+  "version": "0.1.2",
+  "description": "CLI for PackageNinja - A simple package manager for Node.js",
   "author": "D-C-MATE",
   "main": "dist/bin/package-ninja.js",
   "bin": {
